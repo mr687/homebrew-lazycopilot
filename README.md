@@ -1,6 +1,6 @@
 # LazyCopilot
 
-LazyCopilot is a versatile AI-powered tool designed to assist developers with various tasks, starting with generating better commit messages. It leverages the capabilities of GitHub Copilot to provide intelligent suggestions based on your code changes.
+[LazyCopilot](https://github.com/mr687/lazycopilot) is a versatile AI-powered tool designed to assist developers with various tasks, starting with generating better commit messages. It leverages the capabilities of GitHub Copilot to provide intelligent suggestions based on your code changes.
 
 ## Installation
 
