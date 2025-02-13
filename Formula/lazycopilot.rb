@@ -5,21 +5,21 @@
 class Lazycopilot < Formula
   desc "A lazy copilot for your projects"
   homepage ""
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/mr687/lazycopilot/releases/download/v1.0.0/lazycopilot_Darwin_x86_64.tar.gz"
-      sha256 "4e11b719f239c64ce7a6d73b43b44fff73be75ed04e3a2ca0c28539c49b0cd96"
+      url "https://github.com/mr687/lazycopilot/releases/download/v1.1.0/lazycopilot_Darwin_x86_64.tar.gz"
+      sha256 "41a6feaf6202e3003430dd26c1899cfea9d0ea54db8d86f6d54108f07a4f8eea"
 
       def install
         bin.install "lazycopilot"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/mr687/lazycopilot/releases/download/v1.0.0/lazycopilot_Darwin_arm64.tar.gz"
-      sha256 "e070699b15488fdcd27fdf02ce1d6b5ee9e39f7632f1836fffcc8f627f984ba2"
+      url "https://github.com/mr687/lazycopilot/releases/download/v1.1.0/lazycopilot_Darwin_arm64.tar.gz"
+      sha256 "9c70085385db40fca459cbf6eb4f2c7c54d46c203264ce1cf3b3a3b475cdb179"
 
       def install
         bin.install "lazycopilot"
@@ -30,8 +30,8 @@ class Lazycopilot < Formula
   on_linux do
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/mr687/lazycopilot/releases/download/v1.0.0/lazycopilot_Linux_x86_64.tar.gz"
-        sha256 "80cd3ac1dafda54b85271b409329cfbdd450960181c201cd4a0d903952a5395f"
+        url "https://github.com/mr687/lazycopilot/releases/download/v1.1.0/lazycopilot_Linux_x86_64.tar.gz"
+        sha256 "7297c967085ad8e98c26b85ff81b784f640a86526083c08446972fedc55d419c"
 
         def install
           bin.install "lazycopilot"
@@ -40,8 +40,8 @@ class Lazycopilot < Formula
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/mr687/lazycopilot/releases/download/v1.0.0/lazycopilot_Linux_arm64.tar.gz"
-        sha256 "7d2ae79db732dc33af5eb55a54f20de56d012fb799965d07b368c7a321b37167"
+        url "https://github.com/mr687/lazycopilot/releases/download/v1.1.0/lazycopilot_Linux_arm64.tar.gz"
+        sha256 "6c91207e799751719b2a5acfad0dd37f2131a9a52c75d66971881be9457a75c2"
 
         def install
           bin.install "lazycopilot"
